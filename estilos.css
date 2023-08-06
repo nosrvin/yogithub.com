@@ -1,0 +1,82 @@
+* {
+	margin: 0;
+}
+.body1 {
+	font-family: Arial, sans-serif;
+      background-image: url('a79354aa8e1fb129105c45ad3e2f462a.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      padding: 20px;
+      margin: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+}
+.contenedor{
+	text-align: center;
+}
+p{
+	font-size: xx-large;
+	color: #063971;
+	padding: 15%;
+}
+button{
+	font-size: xx-large;
+	background-color: transparent;
+	color: #1f4e7c;
+} 
+#yesbtn{
+	transform: translate(-100%,0);
+	border: 0;
+
+}
+#nobtn{
+	position: absolute;
+	border: 0; 
+}
+.body2 {
+	font-family: Arial, sans-serif;
+      background-image: url('c299af30271470c8dd0c0d7137a036c9.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      padding: 20px;
+      margin: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+}
+.p2{
+	font-size: xx-large;
+	color: white;
+	padding: 15%;
+	text-shadow: 3px 3px 6px rgba(0, 0, 0, 5);
+}
+#boton {
+	text-align: center;
+}
+.b3 {
+            background-color: transparent;
+            color: #fff;
+            font-size: 16px;
+            padding: 10px 20px;
+            border: 2px solid #fff;
+            border-radius: 50px; /* Valor alto para hacer el borde circular */
+            text-decoration: none;
+        }
+
+        /* Estilos para quitar el estilo del botón cuando se hace clic */
+        .b3:active {
+            outline: none;
+            border-color: transparent;
+        }
+
+        /* Estilos adicionales para hacer que el botón tenga un aspecto atractivo */
+        .b3:hover {
+            background-color: #fff;
+            color: #000;
+            transition: background-color 0.3s ease;
+        }
